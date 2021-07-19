@@ -1,8 +1,6 @@
 import concurrent.futures
 import pandas as pd
-import string
 import time
-import os
 
 # import dataset
 df = pd.read_csv('lyrics-data.csv').reset_index()
