@@ -26,7 +26,7 @@ t2 = time.perf_counter()
 
 print(f'Finished in {t2-t1} seconds')
 
-# No threading
+# no threading
 t1 = time.perf_counter()
 for f, l in zip(filename, lyrics):
     lyrics_to_txt(f, l)
